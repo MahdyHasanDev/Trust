@@ -1,0 +1,223 @@
+/* All Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    ul,ol{
+        list-style-type: none;
+    }
+    .container{
+        width: 1320px;
+        margin: 0 auto;
+    }
+/* All Common Css End */
+
+
+/* Top Header Part Start */
+#topheader{
+    background: rgb(56, 55, 55);
+    padding: 20px 0;
+}
+.topheaderitempart{
+display: flex;
+justify-content: space-between;
+}
+.tophleft span{
+color:white;
+margin-right: 30px;
+font-style: 12px;
+font-family: "Open Sans", sans-serif;
+}
+.tophleft span i{
+    padding-right: 5px;
+}
+
+.tophright span{
+    color:white;
+    margin-right: 30px;
+    font-style: 12px;
+    font-family: "Open Sans", sans-serif;
+    }
+/* Top Header Part End */
+
+
+/* header part start */
+#headerpart{
+    background:rgb(250, 247, 247);
+    padding: 20px 0;
+}
+.logowithjmenu{
+   display: flex;
+   justify-content: space-between; 
+   
+  
+}
+.menu ul li{
+display: inline-block;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(51, 39, 39);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    padding: 0 20px;
+   
+    }
+
+.menu{
+    padding-top: 18px;
+}
+.one{
+    background:rgb(250, 247, 247);
+    padding: 50px 250px; 
+}
+/* header part end */
+
+
+/* banner part start */
+#bannerpart{
+
+background: url(../image/1.jpg);
+background-repeat: no-repeat;
+background-position: center ;
+background-size: cover;
+
+}
+.banneroverlay{
+    background: rgba(0,0,0,0.5);
+    padding-top: 250px;
+padding-bottom: 345px;
+    
+}
+.bannertext{
+
+    text-align: center;
+   
+}
+.bannertext span{
+    color: orange;
+}
+.bannertext h4{
+    
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:"Roboto Slab", serif; ;
+
+}
+.bannertext h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 700;
+    font-family:"Roboto Slab", serif; ;
+
+}
+.bannertext p{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    padding: 0 350px;
+    line-height: 30px;
+
+}
+.bannertext a{
+
+  padding: 10px 0;
+  background: orange;
+  border-radius: 50px;
+  color: aliceblue;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+.bannertext a:hover{
+    background: white;
+    color: orange;
+}
+/* baner part end  */
+
+
+/* goal part start */
+#goalpart{
+  
+background: white 
+padding-bottom: 250px;
+
+
+}
+.over{
+    position: relative;
+}
+.goalcard{
+    background: white;
+    padding: 130px 60px;
+    box-shadow: 0px 0px 5px 2px rgba(115,110,115,1);
+position: absolute;
+top: -200px;
+left: 0;
+width: 100%;
+  text-align: center;
+}
+.goalhand{
+    position: relative;
+}
+.goalhand:before{
+    position:absolute;
+    height: 2px;
+    width: 150px;
+    background: rgb(219, 160, 71);
+    content:"";
+    left: 470px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.goalhand:after{
+    position:absolute;
+    height: 2px;
+    width: 150px;
+    background: rgb(212, 166, 96);
+    content:"";
+    right: 470px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.goalcard h3{
+    font-size: 36px;
+    font-family: "Roboto Slab", serif;
+    color: rgb(105, 110, 110);
+}
+
+.goalcard p{
+    color:rgb(85, 83, 83);
+    font-style: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.goalitempart{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.goalitem{
+    width: 30%;
+}
+.goalitem{
+    text-align: center;
+   
+}
+.goalitem h3{
+    font-size: 20px;
+}
+/* goal part end */
+
+/* blue part start  */
+#hello{
+    padding: 150px 0;
+    background: teal;
+}
+/* blue part end  */
